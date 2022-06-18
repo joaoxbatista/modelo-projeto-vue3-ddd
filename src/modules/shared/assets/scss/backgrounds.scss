@@ -1,0 +1,12 @@
+.bg-carbon {
+  background-color: #000;
+  background-image:
+  url('../svg/noise.svg'),
+  radial-gradient(at top left, rgb(31, 26, 35) 20%, transparent 50%),
+  linear-gradient(-315deg, #000105, transparent),
+  linear-gradient(315deg, rgb(60, 51, 68), rgba(0, 0, 0) 90%);
+  background-blend-mode: overlay, lighten, multiply, screen;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
